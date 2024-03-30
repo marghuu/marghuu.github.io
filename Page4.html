@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple  Responsive Website in HTML CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="../custom-scripts.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <!-- Header Start -->
+      <header>
+        <nav class="nav container">
+          <h2 class="nav_logo"><a href="#"></a></h2>
+          <ul class="menu_items">
+            <img src="images/times.svg" alt="timesicon" id="menu_toggle" />
+            <li><a href="Index.html" class="nav_link">Home</a></li>
+            <li><a href="Page1.html" class="nav_link">FAQS</a></li>
+            <li><a href="Page2.html" class="nav_link">Members</a></li>
+          </ul>
+          <img src="images/bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+      </header>
+      <!-- Header End -->
+      <!-- Hero Start -->
+      <section class="hero">
+        <div class="row container">
+          <div class="column">
+            <h2>Learn more about Climate change</h2>
+            <h1>1. Is Climate Change bad for our Earth?<br>
+                - If there is a long-term shift in the average atmospheric condition of a region. This would cause more snow and ice to melt. Oceans would rise higher. Some places would get hotter. Other places might have colder winters with more snow. Some places might get more rain. Other places might get less rain. Some places might have stronger hurricanes.<br>
+                2. What is the difference between global warming and climate change?<br>
+                
+                - Global Warming refers specifically to the long-term increase in Earth's average surface temperature, primarily due to human activities like burning fossil fuels, which release greenhouse gases into the atmosphere. The greenhouse gases trap heat from the sun, causing the planet to warm up. While, Climate Change is a broader term that encompasses not only the increase in global temperatures but also other changes in Earth's climate patterns, including shifts in precipitation, more frequent extreme weather events like hurricanes and droughts, and rising sea levels. Climate change is driven by global warming but includes a wider range of impacts on the planet's climate system.
+                
+                <br>3. Is climate change caused by humans? <br>
+                
+                
+                - Yes, climate change is caused by humans. When we burn fossil fuels like coal, oil, and gas for energy, it releases gases into the air, especially carbon dioxide. These gases trap heat from the sun, making the Earth warmer. This extra heat disrupts our climate, causing things like extreme weather and melting ice caps. So, the things we do, like driving cars and using electricity, contribute to climate change.
+                
+                <br> What are the main risks of climate change?
+                
+                <br>1. Extreme Weather: More intense storms, floods, and droughts can damage homes, crops, and infrastructure.
+                
+                <br> 2. Rising Sea Levels: Melting ice caps and glaciers cause sea levels to rise, which can flood coastal areas.
+                
+                <br>3. Heatwaves:Hotter temperatures can cause heatwaves, leading to health problems, especially for the elderly and vulnerable.
+                
+                <br>4. Impact on Wildlife: Changing temperatures can disrupt ecosystems, leading to the loss of habitats and endangering many species.
+                
+                <br> 5. Food and Water Shortages: Changes in rainfall patterns can affect agriculture, leading to food shortages. Water sources can also dry up, causing water scarcity.
+                
+                <br>6. Health Risks: Climate change can worsen air quality, spread diseases, and increase the risk of heat-related illnesses.
+                
+                <br>2. What are the benefits of acting on climate change now? 
+                
+                
+                <br>1. Cleaner Air: By using cleaner energy sources like solar and wind power, we can reduce air pollution, leading to healthier lungs and fewer respiratory problems.
+                
+                <br>2. Saving Money:Energy-efficient technologies can help us save money on electricity bills and reduce overall expenses in the long run.
+                
+                <br>3. *Protecting Wildlife:* Taking steps to combat climate change can help protect habitats and preserve biodiversity, ensuring a healthier planet for wildlife and humans alike.
+                
+                <br> 4. Safer Communities: Investing in climate resilience measures such as better infrastructure and early warning systems can help communities prepare for and adapt to the impacts of climate change, reducing the risk of disasters.
+                
+                By acting now, we can create a cleaner, healthier, and more sustainable future for ourselves and future generations.
+                <br> 3. Can I make a difference? 
+
+                <br>- Yes, you can absolutely make a difference! Every action, no matter how small, contributes to the collective effort to combat climate change. Here are some ways you can make a difference:
+
+                <br>1. Reduce Your Carbon Footprint: Take steps to lower your personal carbon emissions by using energy-efficient appliances, reducing waste, conserving water, and using sustainable transportation options like walking, biking, or taking public transit.
+
+                <br>2. Support Renewable Energy: Choose renewable energy sources like solar or wind power for your home or advocate for renewable energy policies in your community.
+
+                <br>3. Raise Awareness: Educate others about climate change and its impacts, and encourage them to take action in their own lives.
+
+                <br>4. Advocate for Change:Get involved in local or national initiatives to advocate for policies and regulations that reduce greenhouse gas emissions and promote sustainability.
+
+                <br>5. Vote with the Environment in Mind: Support political candidates and policies that prioritize environmental protection and climate action.
+
+                <br>Every action you take, no matter how small, contributes to a larger movement toward a more sustainable and resilient future for our planet.
+            </h1>
+            <div class="buttons">
+                <li><a href="Page3.html" class="nav_link">Survey</a></li>
+                <li><a href="Page4.html" class="nav_link">learn more</a></li>
+            
+      <!-- Hero End-->
+    </main>
+    <script>
+      const header = document.querySelector("header");
+      const menuToggler = document.querySelectorAll("#menu_toggle");
+      menuToggler.forEach(toggler => {
+        toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+      });
+    </script>
+  </body>
+</html>
